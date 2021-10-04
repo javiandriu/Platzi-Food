@@ -1,0 +1,23 @@
+{
+  "name": "platzifood-tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss ./tailwind.css -o ./FoodGarden/tailwind.css"
+  },
+  "keywords": [],
+  "author": "Javier Vasquez <javiandriu21@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "^10.3.6",
+    "tailwindcss": "^2.2.16"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^4.0.3",
+    "cssnano": "^5.0.8",
+    "postcss": "^8.3.8",
+    "postcss-cli": "^9.0.1"
+  }
+}
